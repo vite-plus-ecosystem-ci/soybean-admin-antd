@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import { computed, reactive } from 'vue';
-import { $t } from '@/locales';
 import { loginModuleRecord } from '@/constants/app';
-import { useRouterPush } from '@/hooks/common/router';
-import { useAntdForm, useFormRules } from '@/hooks/common/form';
+import { $t } from '@/locales';
 import { useAuthStore } from '@/store/modules/auth';
+import { useAntdForm, useFormRules } from '@/hooks/common/form';
+import { useRouterPush } from '@/hooks/common/router';
 
 defineOptions({
   name: 'PwdLogin'
