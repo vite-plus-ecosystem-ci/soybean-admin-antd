@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { Modal } from 'ant-design-vue';
+import { $t } from '@/locales';
 import { useAuthStore } from '@/store/modules/auth';
 import { useRouterPush } from '@/hooks/common/router';
-import { $t } from '@/locales';
 
 defineOptions({
   name: 'UserAvatar'

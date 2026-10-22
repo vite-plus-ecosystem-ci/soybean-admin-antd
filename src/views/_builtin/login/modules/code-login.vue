@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { computed, reactive } from 'vue';
 import { $t } from '@/locales';
-import { useRouterPush } from '@/hooks/common/router';
-import { useAntdForm, useFormRules } from '@/hooks/common/form';
 import { useCaptcha } from '@/hooks/business/captcha';
+import { useAntdForm, useFormRules } from '@/hooks/common/form';
+import { useRouterPush } from '@/hooks/common/router';
 
 defineOptions({
   name: 'CodeLogin'
