@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { computed, ref, watch } from 'vue';
-import { useAntdForm, useFormRules } from '@/hooks/common/form';
+import { enableStatusOptions, userGenderOptions } from '@/constants/business';
 import { fetchGetAllRoles } from '@/service/api';
 import { $t } from '@/locales';
-import { enableStatusOptions, userGenderOptions } from '@/constants/business';
+import { useAntdForm, useFormRules } from '@/hooks/common/form';
 
 defineOptions({
   name: 'UserOperateDrawer'
